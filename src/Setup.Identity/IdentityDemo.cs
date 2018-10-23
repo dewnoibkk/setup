@@ -7,7 +7,7 @@ namespace Setup.Identity
     {
         public void Demo()
         {
-            throw new NotSupportedException();
+            // Do something interesting
         }
 
         public async Task SonarTest()
