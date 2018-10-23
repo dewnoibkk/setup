@@ -3,6 +3,7 @@
   <PropertyGroup>
     <ProjectGuid>{28A84446-2398-44AD-8586-EF8A3664189C}</ProjectGuid>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <ItemGroup>
