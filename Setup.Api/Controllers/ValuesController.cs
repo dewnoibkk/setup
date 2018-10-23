@@ -38,5 +38,7 @@ namespace Setup.Api.Controllers
         public void Delete(int id)
         {
         }
+
+        private async void TestAsync() { }
     }
 }
