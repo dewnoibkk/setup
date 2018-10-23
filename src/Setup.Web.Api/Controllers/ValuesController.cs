@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Setup.Api.Controllers
+namespace Setup.Web.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -38,7 +38,5 @@ namespace Setup.Api.Controllers
         public void Delete(int id)
         {
         }
-
-        private async void TestAsync() { }
     }
 }

@@ -1,9 +1,9 @@
 ﻿using System.Linq;
 using NUnit.Framework;
-using Setup.Api.Controllers;
+using Setup.Web.Api.Controllers;
 using Test.Core;
 
-namespace Setup.Api.Tests.Controllers
+namespace Setup.Web.Api.Tests.Controllers
 {
     public class ValuesControllerTests : BaseTestFixture
     {

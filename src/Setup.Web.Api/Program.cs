@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace Setup.Api
+namespace Setup.Web.Api
 {
     public class Program
     {
