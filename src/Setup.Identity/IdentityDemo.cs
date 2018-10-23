@@ -1,13 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Setup.Identity
 {
     public class IdentityDemo
     {
-        public void Demo() { }
+        public void Demo()
+        {
+            throw new NotSupportedException();
+        }
 
-        public async void SonarTest() { }
+        public async Task SonarTest()
+        {
+            throw new NotSupportedException();
+        }
     }
 }
