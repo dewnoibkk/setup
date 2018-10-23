@@ -1,4 +1,6 @@
-﻿using NUnit.Framework;
+﻿using System;
+using System.Threading.Tasks;
+using NUnit.Framework;
 using Test.Core;
 
 namespace Setup.Identity.Tests
@@ -18,6 +20,12 @@ namespace Setup.Identity.Tests
             this.target.Demo();
 
             Assert.Pass();
+        }
+
+        [Test]
+        public void SonarTest()
+        {
+            Assert.ThrowsAsync<NotSupportedException>(() => this.target.SonarTest());
         }
     }
 }
