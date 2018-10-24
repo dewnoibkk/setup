@@ -10,9 +10,9 @@ namespace Setup.Identity
             // Do something interesting
         }
 
-        public async Task SonarTest()
+        public void SonarTest()
         {
-            throw new NotSupportedException();
+            // Do something
         }
     }
 }
