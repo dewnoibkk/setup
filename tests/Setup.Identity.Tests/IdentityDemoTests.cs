@@ -25,7 +25,7 @@ namespace Setup.Identity.Tests
         [Test]
         public void SonarTest()
         {
-            Assert.ThrowsAsync<NotSupportedException>(() => this.target.SonarTest());
+            Assert.Throws<NotSupportedException>(() => this.target.SonarTest());
         }
     }
 }
