@@ -10,7 +10,6 @@ namespace Setup.Identity
 
         public void Demo()
         {
-            // Do something interesting
         }
 
         public void SonarTest()
